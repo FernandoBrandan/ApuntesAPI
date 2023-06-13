@@ -24,7 +24,7 @@ exports.allData = (req, res) => {
         })
 }
 
-exports.setData = (req, res) => { 
+exports.setData = (req, res) => {
     let data = {
         tema: req.body.tema,
         codigo: req.body.codigo,
